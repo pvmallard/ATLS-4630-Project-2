@@ -5,7 +5,7 @@ import Question from './Question.jsx'
 
 export default function App() {
 
-  const [state, updateState] = useState("question")
+  const [state, updateState] = useState("start")
 
   // function nextQuestion(){
   //   if end of list call update state("")
@@ -13,9 +13,8 @@ export default function App() {
 
   return (
     <div>
-      <h2>hello</h2>
       {state == "start" &&
-        <Start />
+        <Start state = {state} updateState={updateState}/>
       }
 
       {state == "question" &&

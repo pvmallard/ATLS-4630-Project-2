@@ -1,9 +1,9 @@
 import './Start.css';
 
-export default function Start({state, setState}) {
+export default function Start({state, updateState}) {
 
     function startGame(){
-        setState("question")
+        updateState("question")
     }
 
     return (
