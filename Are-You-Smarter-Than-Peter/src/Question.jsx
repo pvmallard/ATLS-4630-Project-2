@@ -61,8 +61,7 @@ export default function Question({state, updateState}) {
                 )}
             </div>
             <div id='score'>
-                <h3>{points}</h3>
-                <h3>{peter}</h3>
+
                 <Scoreboard points={points} peter={peter}/>
             </div>
         </div>
