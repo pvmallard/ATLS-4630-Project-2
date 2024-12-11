@@ -4,6 +4,7 @@ import {useEffect} from 'react'
 import './Question.css';
 import trivia from '/src/assets/trivia.json'
 import { use } from 'react';
+import Scoreboard from './Scoreboard';
 
 export default function Question({state, updateState}) {
 
@@ -54,6 +55,7 @@ export default function Question({state, updateState}) {
             </div>
             <div id='score'>
                 <h3>{points}</h3>
+                <Scoreboard points={points}/>
             </div>
         </div>
     );

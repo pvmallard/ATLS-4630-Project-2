@@ -2,7 +2,14 @@ import * as d3 from "d3";
 import {useEffect, useRef} from 'react'
 
 
-export default function Scoreboard(){
+export default function Scoreboard({points}){
+
+  console.log(points);
+
+  const point = 5
+
+  let database = [{name: "You", score:14},
+              {name: "Peter", score:12}]
 
     const ref = useRef();
 
@@ -47,16 +54,31 @@ export default function Scoreboard(){
     svg.append("g").call(d3.axisLeft(y));
 
     // Bars
-    svg
-      .selectAll("mybar")
-      .data({"Peter" :50})
-      .join("rect")
-      .attr("x", "Peter")
-      .attr("y", 50)
-      .attr("width", 500)
-      .attr("height", 100)
-      .attr("fill", "#5f0f40");
-  });
+    // svg
+    //   .selectAll("mybar")
+    //   .data(database)
+    //   .enter()
+    //   .append("rect")
+    //   .attr("x", (d) => xScale(d.name))
+    //   .attr("y", (d) => xScale(d.score))
+    //   .attr("width", 100)
+    //   .attr("height", 100)
+    //   .attr("fill", "#5f0f40");
+
+    svg.selectAll("mybar").data(database).enter().append("rect").attr('x', 
+      function(d){
+        return x(d);
+      
+    }).attr('y', 
+      function(d) {
+      return y(database[d]);
+    }).attr("width", x.bandwidth() - 2).attr("height", 
+      function(d){
+      return height - y(point);
+    }).attr("fill", "#7e6acb")
+
+
+  })
     },[])
 
 
