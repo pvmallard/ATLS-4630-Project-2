@@ -1,7 +1,14 @@
 import './Result.css';
 
-export default function Result() {
+export default function Result({state, updateState}) {
+    function restartGame(){
+        updateState("start")
+    }
+    
     return (
-    <h1>results</h1>
+        <div>
+            <h1>You Smarter Than Peter Rosenthal!</h1>
+            <button onClick={restartGame}>Play Again?</button>
+        </div>
     );
 }
