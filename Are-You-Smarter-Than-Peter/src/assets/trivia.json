@@ -91,6 +91,374 @@
                     }
                   ],
                   "peter": 20
+            },
+            {
+                "question": "What is the Roman name of Ares? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Mercury",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Saturn",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Mars",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Neptune",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 25
+            },
+            {
+                "question": "Where is the Oval Office located in the White House?  ",
+                "answers":
+                  [
+                    {
+                        "answer": "Penthouse",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Northwest Wing",
+                        "correct": false
+                    },
+                    {
+                        "answer": "East Wing",
+                        "correct": false
+                    },
+                    {
+                        "answer": "West Wing",
+                        "correct": true
+                    }
+                  ],
+                  "peter": 30
+            },
+            {
+                "question": "Cows produce 3% less milk when listening to what kind of music? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Rap",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Country",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Classical",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Pop",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 35
+            },
+            {
+                "question": "Who was the lead actress in Pretty Woman? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Julia Roberts",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Julia Child",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Martha Stewart",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Amanda Bynes",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 40
+            },
+            {
+                "question": "What is the highest-grossing movie of all time? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Toy Story",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Avatar",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Harry Potter",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Titanic",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 45
+            },
+            {
+                "question": "Where did Dwayne Johnson play football?",
+                "answers":
+                  [
+                    {
+                        "answer": "UCLA",
+                        "correct": false
+                    },
+                    {
+                        "answer": "University of Miami",
+                        "correct": true
+                    },
+                    {
+                        "answer": "University of Montana",
+                        "correct": false
+                    },
+                    {
+                        "answer": "University of Colorado Boulder",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 50
+            },
+            {
+                "question": "Who was the first Disney princess? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Cinderella",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Elsa",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Belle",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Snow White",
+                        "correct": true
+                    }
+                  ],
+                  "peter": 55
+            },
+            {
+                "question": "What was the first food eaten in space?",
+                "answers":
+                  [
+                    {
+                        "answer": "Applesauce",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Oatmeal",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Chicken Nuggets",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Protein Powder",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 60
+            },
+            {
+                "question": "What is the singular word for spaghetti?",
+                "answers":
+                  [
+                    {
+                        "answer": "Spaghetto",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Spaghette",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Spaghet",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Spaghett",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 65
+            },
+            {
+                "question": "Wyoming Territory was the first to grant women the right to vote in what year?",
+                "answers":
+                  [
+                    {
+                        "answer": "1845",
+                        "correct": false
+                    },
+                    {
+                        "answer": "1869",
+                        "correct": true
+                    },
+                    {
+                        "answer": "1899",
+                        "correct": false
+                    },
+                    {
+                        "answer": "1921",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 65
+            },
+            {
+                "question": "What year was Anna Karenina published? ",
+                "answers":
+                  [
+                    {
+                        "answer": "1843",
+                        "correct": false
+                    },
+                    {
+                        "answer": "1876",
+                        "correct": false
+                    },
+                    {
+                        "answer": "1877",
+                        "correct": true
+                    },
+                    {
+                        "answer": "1934",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 65
+            },
+            {
+                "question": "What is the only planet in our solar system to rotate clockwise on its axis?",
+                "answers":
+                  [
+                    {
+                        "answer": "Venus",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Saturn",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Pluto",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Neptune",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 65
+            },
+            {
+                "question": "What is James Bond's code name?",
+                "answers":
+                  [
+                    {
+                        "answer": "006'",
+                        "correct": false
+                    },
+                    {
+                        "answer": "113",
+                        "correct": false
+                    },
+                    {
+                        "answer": "007'",
+                        "correct": true
+                    },
+                    {
+                        "answer": "222",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 70
+            },
+            {
+                "question": "Weighing around eight pounds, this is the human body's largest organ? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Stomach",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Heart",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Lungs",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Skin",
+                        "correct": true
+                    }
+                  ],
+                  "peter": 75
+            },
+            {
+                "question": "How many states does the Appalachian Trail cross? ",
+                "answers":
+                  [
+                    {
+                        "answer": "14",
+                        "correct": true
+                    },
+                    {
+                        "answer": "5",
+                        "correct": false
+                    },
+                    {
+                        "answer": "9",
+                        "correct": false
+                    },
+                    {
+                        "answer": "3",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 75
+            },
+            {
+                "question": "Relative to the internet, what does “URL” stand for?",
+                "answers":
+                  [
+                    {
+                        "answer": "Useful Recurrence Length",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Unidentified Resource Locator",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Uniform Resource Locator",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Universal Resource Locator",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 80
             }
         ]
     }
