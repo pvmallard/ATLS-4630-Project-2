@@ -1,4 +1,6 @@
 import './Result.css';
+import petermad from "/src/assets/petermad.png"
+import peterglad from "/src/assets/peterhappy.png"
 
 export default function Result({state, updateState}) {
     function restartGame(){
@@ -14,7 +16,7 @@ export default function Result({state, updateState}) {
                     <button onClick={restartGame}>Play Again?</button>
                 </div>
                 <figure>
-                    <img src="/src/assets/petermad.png"/>
+                    <img src={petermad}/>
                 </figure>
             </>
             }
@@ -25,7 +27,7 @@ export default function Result({state, updateState}) {
                     <button onClick={restartGame}>Try Again?</button>
                 </div>
                 <figure>
-                    <img src="/src/assets/peterhappy.png"/>
+                    <img src={peterglad}/>
                 </figure>
             </>
             }
