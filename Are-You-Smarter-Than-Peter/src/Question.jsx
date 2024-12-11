@@ -13,10 +13,11 @@ export default function Question({state, updateState}) {
     const [currentQ, setQ] = useState(questionList[0])
     const [currentIndex, setIndex] = useState(0)
     const [points, setPoints] = useState(0)
+    const [peter, setPeter] = useState(0)
 
     useEffect(() => {
         
-        if (currentIndex >= 3){
+        if (currentIndex >= 20){
             toResults()
         }
 
@@ -24,8 +25,9 @@ export default function Question({state, updateState}) {
 
     }, [currentIndex]) 
     
-    function nextQuestion(event, correct){
+    function nextQuestion(event, correct, pete){
         // if no next question, toResults()
+        setPeter(pete)
         setIndex(currentIndex + 1)
         if (correct){
             setPoints(points + 5)
@@ -33,7 +35,12 @@ export default function Question({state, updateState}) {
     }
     
     function toResults(){
-        updateState("result")
+        if(points > peter){
+            updateState("win")
+        }
+        else{
+            updateState("lose")
+        }
     }
     
     return (
@@ -46,7 +53,7 @@ export default function Question({state, updateState}) {
                     <button 
                         key={index}
                         onClick={(e) => {
-                            nextQuestion(e, ans.correct);
+                            nextQuestion(e, ans.correct, currentQ.peter);
                         }}
                     >
                         {ans.answer}
@@ -55,7 +62,8 @@ export default function Question({state, updateState}) {
             </div>
             <div id='score'>
                 <h3>{points}</h3>
-                <Scoreboard points={points}/>
+                <h3>{peter}</h3>
+                <Scoreboard points={points} peter={peter}/>
             </div>
         </div>
     );

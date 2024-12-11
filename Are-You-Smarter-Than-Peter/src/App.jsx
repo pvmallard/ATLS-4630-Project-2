@@ -26,7 +26,7 @@ export default function App() {
                
       }
 
-      {state == "result" &&
+      {(state == "win" || state == "lose")&&
         <Result state = {state} updateState={updateState}/>
       }
     </div>
