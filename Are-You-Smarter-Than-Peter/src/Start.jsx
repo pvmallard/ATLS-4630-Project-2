@@ -1,4 +1,5 @@
 import './Start.css';
+import peter from "/src/assets/peter.png";
 
 export default function Start({state, updateState}) {
 
@@ -14,7 +15,7 @@ export default function Start({state, updateState}) {
              
             </div>
             <figure>
-                <img src="/src/assets/petermad.png"/>
+                <img src={peter}/>
             </figure>
         </div>
         
