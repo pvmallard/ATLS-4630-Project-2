@@ -7,20 +7,18 @@ body {
     text-align: center;
     margin: 0 auto;
     display: grid;
-    width: 100vw;
+    max-width: 100%;
     height: 100vh;
+    overflow: hidden;
+    align-items: center;
     grid-template-columns: 
-        4fr 1fr;
-    grid-template-rows: 
-        1fr 4fr;
+        7fr 1fr;
     grid-template-areas:
-    "question scores"
-    "answers scores"
+        "A B";
 }
 
-#question{grid-area: question;}
-#answers{grid-area: answers;}
-#scores{grid-area: scores;}
+#aaa{grid-area: A;}
+#scores{grid-area: B;}
 
 #question, #answers, #scores {
     padding: 1.5em;
@@ -29,10 +27,15 @@ body {
 #question {
     justify-content: center;
     align-self: center;
+    min-height: 400px;
+}
+
+#aaa {
+    max-width: 95%;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.7em;
     line-height: 1.1;
 }
 
@@ -49,6 +52,7 @@ button {
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 1.2em 1.2em;
+    margin: 0.5em;
     font-size: 1.2em;
     font-weight: 500;
     font-family: inherit;
