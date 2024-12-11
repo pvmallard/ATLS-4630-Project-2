@@ -1,0 +1,96 @@
+{
+        "questions": [
+            {
+                "question": "Where is the Great Barrier Reef located?",
+                "answers":
+                  [
+                    {
+                        "answer": "United States",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Thailand",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Australia",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Chile",
+                        "correct": false
+                    }
+                  ],
+                "peter": 5
+            },
+            {
+                "question": "What country gave the US the Statue of Liberty?",
+                "answers":
+                  [
+                    {
+                        "answer": "United Kingdom",
+                        "correct": false
+                    },
+                    {
+                        "answer": "France",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Mexico",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Germany",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 10
+            },
+            {
+                "question": "How many bones are in the human body? ",
+                "answers":
+                  [
+                    {
+                        "answer": "206",
+                        "correct": true
+                    },
+                    {
+                        "answer": "97",
+                        "correct": false
+                    },
+                    {
+                        "answer": "168",
+                        "correct": false
+                    },
+                    {
+                        "answer": "301",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 15
+            },
+            {
+                "question": "Where is the Bermuda Triangle located? ",
+                "answers":
+                  [
+                    {
+                        "answer": "Dead Sea",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Pacific Ocean",
+                        "correct": false
+                    },
+                    {
+                        "answer": "Atlantic Ocean",
+                        "correct": true
+                    },
+                    {
+                        "answer": "Indian Ocean",
+                        "correct": false
+                    }
+                  ],
+                  "peter": 20
+            }
+        ]
+    }
