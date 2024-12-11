@@ -20,7 +20,10 @@ export default function App() {
       }
 
       {state == "question" &&
-          <Question state = {state} updateState={updateState}/>       
+      <>
+        <Question state = {state} updateState={updateState}/> 
+      </>
+               
       }
 
       {state == "result" &&
