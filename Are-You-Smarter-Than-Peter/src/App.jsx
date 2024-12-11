@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './App.css';
 import Start from './Start.jsx'
 import Result from './Result.jsx'
 import Question from './Question.jsx'
