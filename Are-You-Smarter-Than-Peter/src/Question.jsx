@@ -45,20 +45,22 @@ export default function Question({state, updateState}) {
     
     return (
         <div className='container'>
-            <div id='question'>
-                <h2>{currentQ.question}</h2>
-            </div>
-            <div id='answers'>
-                {currentQ.answers.map((ans, index) => 
-                    <button 
-                        key={index}
-                        onClick={(e) => {
-                            nextQuestion(e, ans.correct, currentQ.peter);
-                        }}
-                    >
-                        {ans.answer}
-                    </button>
-                )}
+            <div id="aaa">
+                <div>
+                    <h2>{currentQ.question}</h2>
+                </div>
+                <div id='answers'>
+                    {currentQ.answers.map((ans, index) => 
+                        <button 
+                            key={index}
+                            onClick={(e) => {
+                                nextQuestion(e, ans.correct, currentQ.peter);
+                            }}
+                        >
+                            {ans.answer}
+                        </button>
+                    )}
+                </div>
             </div>
             <div id='score'>
 
