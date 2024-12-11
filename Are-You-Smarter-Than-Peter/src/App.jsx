@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Start from './Start.jsx'
 import Result from './Result.jsx'
 import Question from './Question.jsx'
+import Scoreboard from './Scoreboard.jsx'
 
 export default function App() {
 
@@ -13,16 +14,17 @@ export default function App() {
 
   return (
     <div>
+      
       {state == "start" &&
         <Start state = {state} updateState={updateState}/>
       }
 
       {state == "question" &&
-        <Question />
+          <Question state = {state} updateState={updateState}/>       
       }
 
       {state == "result" &&
-        <Result />
+        <Result state = {state} updateState={updateState}/>
       }
     </div>
   );
